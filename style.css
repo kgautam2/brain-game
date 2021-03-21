@@ -1,0 +1,82 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+   background-color: black;
+   color: white; 
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+button{ 
+  padding: 10px;
+border-radius: 20px;
+
+ 
+}
+
+#startBtn{
+  width: 80px;
+  height: 50px;
+  
+  
+}
+
+#stopBtn{
+  width: 80px;
+  height: 50px;
+  
+}
+
+
+#gameButtonArea > button {
+  background-size: 100%;
+  
+  width:200px;
+  height:200px;
+  margin:5px;
+  object-fit: cover; 
+ 
+  
+  
+}
+.hidden{
+  display:none; 
+}
+
+#button1 {
+background: linear-gradient(to right, lightgreen, darkgreen);
+   
+  
+}
+
+#button2 {
+   background: linear-gradient(to right, lightblue, darkblue);
+  
+}
+#button3 {
+     background: linear-gradient(to right, pink, red);
+}
+
+#button4 {
+   background: linear-gradient(to right, gold, darkorange);
+}
+
+#button1:active, #button1.lit{
+    background:green;
+}
+#button2:active, #button2.lit {
+    background:blue;
+}
+
+#button3:active, #button3.lit{
+    background:red;
+}
+
+#button4:active, #button4.lit{
+    background:yellow;
+}
+
